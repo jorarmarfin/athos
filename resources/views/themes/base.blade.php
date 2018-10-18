@@ -7,7 +7,7 @@
     @include('themes.partials.css')
     <title>Document</title>
 </head>
-<body class="page-parent header-modern ">
+<body class="page-parent header-modern layout-full-width ">
     <!-- Main Theme Wrapper -->
     <div id="Wrapper">
         <!-- Header Wrapper -->
