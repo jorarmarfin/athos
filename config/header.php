@@ -20,7 +20,7 @@ return [
     |   header-split
     |   header-stack header-magazine
     */
-    'class' => 'header-classic',
+    'class' => 'header-modern',
     'show-hidden-top-area' => true,
     'top-bar-right' => true,
     /*

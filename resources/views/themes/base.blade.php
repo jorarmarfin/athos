@@ -90,17 +90,49 @@
                 </div>
                 <!-- Revolution slider area-->
                 <div class="mfn-main-slider" id="mfn-rev-slider">
-                    
+                    <div id="rev_slider_34_2" class="rev_slider fullwidthabanner flv_rev_13">
+                        <ul>
+                            <li>prueba1</li>
+                            <li>prueba2</li>
+                        </ul>
+                    </div>
                 </div>
             </header>
         </div>
         <!-- Main Content -->
         <div id="Content">
             <div class="content_wrapper clearfix">
+                <div class="sections_group">
+                    <div class="entry-content">
+                        654654
+                        645
+                        64
+                    </div>
+                </div>
             </div>
         </div>
+        <!-- Footer-->
+        <footer id="Footer" class="clearfix">
+            <!-- Footer - First area -->
+            @include('themes.footer.first-area')
+            @include('themes.footer.widgets')
+            <!-- Footer copyright-->
+            @include('themes.footer.copyright')
+        </footer>
+
     </div>
     @include('themes.partials.js')
-    
+    <script>
+        var tpj=jQuery;
+        tpj.noConflict();
+        tpj(document).ready(function () {
+            tpj("#rev_slider_34_2").show().revolution({
+                sliderType: "standard",
+                sliderLayout: "auto",
+                dottedOverlay: "none",
+                delay: 7000,
+            });
+        });
+    </script>
 </body>
 </html>
